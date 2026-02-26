@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BorrowBox 📦
 
-## Getting Started
+## Project Description
+BorrowBox is a peer-to-peer lending platform designed for university students. It allows students to list items they own for others to borrow, earning credits in return. This promotes a circular economy within the campus and helps students access tools and resources without high costs.
 
-First, run the development server:
+## Team Members
+* **Nay min khant** - [GitHub Profile](https://github.com/Nayminkhant2004)
+* **Andrei Filip** - [GitHub Profile](https://github.com/u6722003-dotcom)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+* **Frontend:** Next.js (App Router)
+* **Database:** MongoDB Atlas
+* **UI Library:** Material UI (MUI)
+* **Deployment Target:** Azure VM (Ubuntu)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## CRUD Data Models
+This project implements the following three entities:
+1. **User:** Handles profiles, student IDs, and credit balances.
+2. **Item:** Handles the catalog of items available for lending.
+3. **Loan:** Handles the tracking of borrow requests and return status.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Screenshots
+*(Tip: Take a screenshot of your Dashboard and Add-Item page, upload them to your GitHub 'public' folder, and link them here later.)*
